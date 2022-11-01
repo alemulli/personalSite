@@ -1,18 +1,169 @@
-body {
-  font-family: 'Raleway', Arial, sans-serif;
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
+/* full document */
+* {
+  box-sizing: border-box;
 }
 
-
-#navbar {
-  font-family: 'Poller One', Arial, sans-serif;
-  flex-grow: 1;
-  max-height: 10%;
-  min-height: 40px;
-  background-color: #222222;
-  color: white;
+html, body, #app, #main {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #0b192f;
+  height: 99.8vh;
+  width: 100vw;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#homePage, #aboutMe, #portfolio {
+  flex-grow: 1;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* header and nav bar */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5ec8b9;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1em;
+}
+
+.headerh1 {
+  color: #0b192f;
+}
+
+.navlink {
+  background-color: #259484;
+  color: #0b192f;
+  text-decoration: none;
+  padding: 1.1em;
+  font-size: 1.5em;
+}
+
+.navink.active {
+  background-color: #0b192f;
+  color: #c9d7f2;
+}
+
+a:hover,
+a:focus {
+  background-color: #c9d7f2;
+  color: #0b192f;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* main */
+main {
+  background-color: #0b192f;
+  color: #8593ae;
+  font-size: 1em;
+  padding: 20px;
+  line-height: 1.5;
+  overflow: auto
+}
+
+.mainh1 {
+  color: #c9d7f2;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+main h3 {
+  color: #c9d7f2;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  justify-self: flex-end;
+  background-color: white;
+  padding: .5em;
+  color: #0b192f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-height: 70px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
+
+strong {
+  font-weight: bold;
+}
+
+.socialmedia {
+  max-width: 5vw;
+  max-height: 60px;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.section1 {
+  background-color: #259484;
+  border: 0.5em double #c9d7f2;
+  padding: 1em;
+  margin: 1em auto;
+  border-top-right-radius: 5em;
+  color: #0b192f;
+  max-width: 1000px;
+}
+
+.section2 {
+  background-color: #5ec8b9;
+  border: 0.5em dashed white;
+  padding: 1em;
+  margin: 1em auto;
+  color: #0b192f;
+  max-width: 1000px;
+}
+.section3 {
+  background-color: #259484;
+  border: 0.5em double #c9d7f2;
+  padding: 1em;
+  margin: 1em auto;
+  margin-bottom: 3.3em;
+  border-bottom-left-radius: 5em;
+  color: #0b192f;
+  max-width: 1000px;
+}
+
+.screenshots {
+  max-width: 100%;
+  margin: auto;
+  border-radius: 3em;
+}
+
+.sciencegallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sciencepic {
+  max-height: 20vh;
+  border-radius: 3em;
+}
+
+.dogs {
+  max-height: 30vh;
+}
+
+.me {
+  float: right;
+  max-height: 50vh;
+}
+
+/* want custom scroll bar! */
