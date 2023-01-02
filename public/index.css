@@ -7,6 +7,10 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+#homePage::-webkit-scrollbar {
+  display: none;
+}
+
 #portfolio::-webkit-scrollbar {
   display: none;
 }
@@ -15,7 +19,7 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-html, #portfolio, #aboutMe {
+html, #portfolio, #aboutMe, #homePage {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
@@ -223,6 +227,6 @@ strong {
   max-height: 50vh;
 }
 
-
-
-/* want custom scroll bar! */
+#skills {
+  list-style: none;
+}
