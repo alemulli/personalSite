@@ -89,7 +89,8 @@ main {
   font-size: 1em;
   padding: 20px;
   line-height: 1.5;
-  /* overflow: auto; */
+  display: flex;
+  flex-direction: column;
 }
 
 #main {
@@ -110,6 +111,10 @@ main {
 
 main h3 {
   color: #c9d7f2;
+}
+
+#myGitHub {
+  align-self: center;
 }
 
 /* footer */
