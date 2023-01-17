@@ -35,17 +35,17 @@ const HomePage = () => {
       </p>
       <div className="section2">
       <h3>My skills:</h3>
-      <section class="splide" aria-label="Splide Basic HTML Example">
-  <div class="splide__track">
-		<ul class="splide__list">
-			<li class="splide__slide"><img src="https://res.cloudinary.com/dyqjp130l/image/upload/v1672694389/Tech/html5_ghquwo.png" /></li>
-			<li class="splide__slide"><img src="https://res.cloudinary.com/dyqjp130l/image/upload/v1672694389/Tech/css3_fv67om.png" /></li>
-			<li class="splide__slide"><img src="https://res.cloudinary.com/dyqjp130l/image/upload/v1672694389/Tech/javascript_boql5n.png" /></li>
-      <li class="splide__slide"><img src="https://res.cloudinary.com/dyqjp130l/image/upload/v1672694389/Tech/react_rebrnq.png" /></li>
-      <li class="splide__slide"><img src="https://res.cloudinary.com/dyqjp130l/image/upload/v1672694389/Tech/nodejs_qiv8sr.png" /></li>
-      <li class="splide__slide"><img src="https://res.cloudinary.com/dyqjp130l/image/upload/v1672694389/Tech/npm_ekl6pn.png" /></li>
-      <li class="splide__slide"><img src="https://res.cloudinary.com/dyqjp130l/image/upload/v1672694389/Tech/postgresql_pahoz8.png" /></li>
-      <li class="splide__slide"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" /></li>
+      <section className="splide" aria-label="Splide Basic HTML Example">
+  <div className="splide__track">
+		<ul className="splide__list">
+			<li className="splide__slide"><img src="https://res.cloudinary.com/dyqjp130l/image/upload/v1672694389/Tech/html5_ghquwo.png" /></li>
+			<li className="splide__slide"><img src="https://res.cloudinary.com/dyqjp130l/image/upload/v1672694389/Tech/css3_fv67om.png" /></li>
+			<li className="splide__slide"><img src="https://res.cloudinary.com/dyqjp130l/image/upload/v1672694389/Tech/javascript_boql5n.png" /></li>
+      <li className="splide__slide"><img src="https://res.cloudinary.com/dyqjp130l/image/upload/v1672694389/Tech/react_rebrnq.png" /></li>
+      <li className="splide__slide"><img src="https://res.cloudinary.com/dyqjp130l/image/upload/v1672694389/Tech/nodejs_qiv8sr.png" /></li>
+      <li className="splide__slide"><img src="https://res.cloudinary.com/dyqjp130l/image/upload/v1672694389/Tech/npm_ekl6pn.png" /></li>
+      <li className="splide__slide"><img src="https://res.cloudinary.com/dyqjp130l/image/upload/v1672694389/Tech/postgresql_pahoz8.png" /></li>
+      <li className="splide__slide"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" /></li>
 		</ul>
   </div>
 </section></div>

@@ -28,7 +28,7 @@ const Navbar = () => {
   async function changeActivetoProjects () {
     removeActiveClass()
     let projectsTab = document.getElementById("projectsNav")
-    aboutTab.classList.add("active")
+    projectsTab.classList.add("active")
   }
 
   return (

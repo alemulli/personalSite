@@ -35,7 +35,7 @@ const AboutMe = () => {
           billions.
         </p>
         <span className="sciencegallery">
-          <img
+          {/* <img
             src="about1.JPG"
             className="sciencepic"
             alt="Picture in front of a Volcano in Iceland" />
@@ -47,7 +47,8 @@ const AboutMe = () => {
             src="about4.JPG"
             className="sciencepic"
             alt="Picture with a sea urchin"
-        /></span>
+        /> */}
+        </span>
       </div>
       <div className="section3">
         <h3>My Puppies</h3>
@@ -74,10 +75,10 @@ const AboutMe = () => {
               </p>
             </td>
             <td>
-              <img src="Bender.png" className="dogs" alt="My beagle, Bender" />
+              {/* <img src="Bender.png" className="dogs" alt="My beagle, Bender" /> */}
             </td>
             <td>
-              <img src="Hiro.png" className="dogs" alt="My Shiba Inu, Hiro" />
+              {/* <img src="Hiro.png" className="dogs" alt="My Shiba Inu, Hiro" /> */}
             </td>
           </tr>
           </tbody>

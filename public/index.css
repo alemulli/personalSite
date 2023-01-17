@@ -194,6 +194,8 @@ strong {
   color: #0b192f;
   max-width: 90vw;
   width: 1000px;
+  display: flex;
+  flex-direction: column;
 }
 
 .section2 {
@@ -216,10 +218,21 @@ strong {
   max-width: 1000px;
 }
 
+.section1 a, .section2 a, .section3 a {
+  color: #c9d7f2;
+}
+.section1 a:hover .section2 a:hover, .section3 a:hover{
+  font-weight: bold;
+  background-color: transparent;
+}
+
 .screenshots {
   max-width: 100%;
   margin: auto;
-  border-radius: 3em;
+  /* border-radius: 3em; */
+}
+iframe {
+  align-self: center;
 }
 
 .sciencegallery {
