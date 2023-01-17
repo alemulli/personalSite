@@ -33,6 +33,7 @@ const HomePage = () => {
       </p><p>
       I have recently graduated from the Virginia Tech Coding Bootcamp powered by Fullstack Academy. While I still fully intend to continue learning independently, I am now looking for my place in the field. My goal is to utilize my newfound programming skills while also leveraging the skills I developed in the multifaceted and demanding education environment.
       </p>
+      <div className="section2">
       <h3>My skills:</h3>
       <section class="splide" aria-label="Splide Basic HTML Example">
   <div class="splide__track">
@@ -47,7 +48,7 @@ const HomePage = () => {
       <li class="splide__slide"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" /></li>
 		</ul>
   </div>
-</section>
+</section></div>
       {/* <ul id="skills">
         <li>HTML5</li>
         <li>CSS3</li>
