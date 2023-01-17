@@ -11,7 +11,7 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-#portfolio::-webkit-scrollbar {
+#projects::-webkit-scrollbar {
   display: none;
 }
 
@@ -19,7 +19,7 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-html, #portfolio, #aboutMe, #homePage {
+html, #projects, #aboutMe, #homePage {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
@@ -37,7 +37,7 @@ html, body, #app, #main {
   overflow: visible;
 }
 
-#homePage, #aboutMe, #portfolio {
+#homePage, #aboutMe, #projects {
   /* flex-grow: 1; */
   overflow: auto;
   margin: 0;
@@ -91,6 +91,7 @@ main {
   line-height: 1.5;
   display: flex;
   flex-direction: column;
+  gap: 1em;
 }
 
 #main {
@@ -107,6 +108,7 @@ main {
   color: #c9d7f2;
   font-weight: bold;
   font-size: 3em;
+  margin: 0;
 }
 
 main h3 {
@@ -186,7 +188,7 @@ strong {
   background-color: #259484;
   border: 0.5em double #c9d7f2;
   padding: 1em;
-  margin: 1em auto;
+  margin: 0;
   border-top-right-radius: 5em;
   color: #0b192f;
   max-width: 1000px;
@@ -196,7 +198,7 @@ strong {
   background-color: #5ec8b9;
   border: 0.5em dashed white;
   padding: 1em;
-  margin: 1em auto;
+  margin: 0;
   color: #0b192f;
   max-width: 1000px;
 }
@@ -204,7 +206,7 @@ strong {
   background-color: #259484;
   border: 0.5em double #c9d7f2;
   padding: 1em;
-  margin: 1em auto;
+  margin: 0;
   margin-bottom: 3.3em;
   border-bottom-left-radius: 5em;
   color: #0b192f;
