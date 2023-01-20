@@ -9,13 +9,13 @@ const AboutMe = () => {
       <div className="section2">
         <h3>Education and Experience</h3>
         <ul>
-          <li>Bachelors degree in Geosciences from Virginia Tech with a minor in Biology</li>
+          <li>Web Development Certificate from Virginia Tech powered by Full Stack Academy</li>
           <li>
             Masters degree in Education: Curriculum and Instruction from Radford
             University
           </li>
           <li>
-            Web Development Certificate from Virginia Tech powered by Full Stack Academy
+            Bachelors degree in Geosciences from Virginia Tech with a minor in Biology
           </li>
         </ul>
         <span id="edLogos"><img className="edLogo" src="https://www.assets.cms.vt.edu/images/Standard/Standard_RGB.svg" alt="Virginia Tech Logo" /><img className="edLogo" src="https://www.radford.edu/etc/designs/radford/core/images/branding-stacked.png" alt="Radford University Logo"/><img className="edLogo" src="https://res.cloudinary.com/dyqjp130l/image/upload/v1674246581/Tech/fsa-removebg-preview_um3aem.png" alt="Fullstack Academy Logo" /></span>
