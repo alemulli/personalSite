@@ -78,6 +78,15 @@ const Portfolio = () => {
         </div>
         <div className="section2">
           <h3>Fitness Trackr</h3>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/e4BqKTNMyTw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
           <p>
             Fitness Trackr is a MyFitnessPal-esque workout routine sharing
             website, developed while attending Virginia Tech Coding Bootcamp
@@ -130,14 +139,18 @@ const Portfolio = () => {
               </span>
             </li>
           </ul>
-          <img
-            src="https://placeimg.com/1000/500/tech?2"
-            className="screenshots"
-            alt="Screenshot of Project"
-          />
         </div>
         <div className="section2">
           <h3>JuiceBox</h3>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/gXsrblHERec"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
           <p>
             JuiceBox is a public message board web app, developed while
             attending Virginia Tech Coding Bootcamp powered by FullStack
@@ -180,11 +193,6 @@ const Portfolio = () => {
               </span>
             </li>
           </ul>
-          <img
-            src="https://placeimg.com/1000/500/tech?2"
-            className="screenshots"
-            alt="Screenshot of Project"
-          />
         </div>
         <div className="section3">
           <h3>Snake</h3>
@@ -202,7 +210,10 @@ const Portfolio = () => {
           </p>
           <ul>
             {" "}
-            <li> Difficulty and field size selectors are available for the game. </li>
+            <li>
+              {" "}
+              Difficulty and field size selectors are available for the game.{" "}
+            </li>
             <li>
               {" "}
               High score, average score, and records from previous matches are
@@ -210,7 +221,8 @@ const Portfolio = () => {
             </li>
             <li>
               Snake games are traditionally made in JavaScript using canvas, but
-              I took a different approach in using a table and having the snake navigate across the cells.{" "}
+              I took a different approach in using a table and having the snake
+              navigate across the cells.{" "}
             </li>
             <li>
               <a href="https://github.com/alemulli/arcade" target="_blank">

@@ -206,6 +206,8 @@ strong {
   margin: 0;
   color: #0b192f;
   max-width: 1000px;
+  display: flex;
+  flex-direction: column;
 }
 .section3 {
   background-color: #259484;
@@ -216,6 +218,8 @@ strong {
   border-bottom-left-radius: 5em;
   color: #0b192f;
   max-width: 1000px;
+  display: flex;
+  flex-direction: column;
 }
 
 .section1 a, .section2 a, .section3 a {
