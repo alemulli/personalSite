@@ -5,23 +5,23 @@ const AboutMe = () => {
     <div id="aboutMe">
         <main>
       <br />
-      <h1 className="mainh1">This is the header.</h1>
-      <div className="section1">
+      <h1 className="mainh1">About me.</h1>
+      <div className="section2">
         <h3>Education and Experience</h3>
-        <p>details, details, details</p>
         <ul>
-          <li>Bachelors degree in Geosciences from Virginia Tech</li>
+          <li>Bachelors degree in Geosciences from Virginia Tech with a minor in Biology</li>
           <li>
             Masters degree in Education: Curriculum and Instruction from Radford
             University
           </li>
           <li>
-            Web Development Certificate from FullStack Academy (in progress)
+            Web Development Certificate from Virginia Tech powered by Full Stack Academy
           </li>
         </ul>
-        {/* maybe add logos? */}
+        <span id="edLogos"><img className="edLogo" src="https://www.assets.cms.vt.edu/images/Standard/Standard_RGB.svg" alt="Virginia Tech Logo" /><img className="edLogo" src="https://www.radford.edu/etc/designs/radford/core/images/branding-stacked.png" alt="Radford University Logo"/><img className="edLogo" src="https://res.cloudinary.com/dyqjp130l/image/upload/v1674246581/Tech/fsa-removebg-preview_um3aem.png" alt="Fullstack Academy Logo" /></span>
+        <p>Throughout my Virginia Tech coding bootcamp powered by Fullstack Academy I learned frontend development using HTML, CSS, JavaScript, and React, as well as back end development using Node.js, Express.js, and postgreSQL, all while using Github for version control. Since graduating the program I've been working independently to expand my skills and knowledge. I'm working on learning python, AWS, TypeScript, and MongoDB.</p>
       </div>
-      <div className="section2">
+      {/* <div className="section2">
         <h3>Earth and Space Science Nerd</h3>
         <p>
           Intelligent beings dream of the mind's eye a still more glorious dawn
@@ -34,7 +34,7 @@ const AboutMe = () => {
           billions upon billions upon billions upon billions upon billions upon
           billions.
         </p>
-        <span className="sciencegallery">
+        <span className="sciencegallery"> */}
           {/* <img
             src="about1.JPG"
             className="sciencepic"
@@ -48,7 +48,7 @@ const AboutMe = () => {
             className="sciencepic"
             alt="Picture with a sea urchin"
         /> */}
-        </span>
+        {/* </span>
       </div>
       <div className="section3">
         <h3>My Puppies</h3>
@@ -74,16 +74,16 @@ const AboutMe = () => {
                 doggo such treat most angery pupper I have ever seen.
               </p>
             </td>
-            <td>
+            <td> */}
               {/* <img src="Bender.png" className="dogs" alt="My beagle, Bender" /> */}
-            </td>
-            <td>
+            {/* </td>
+            <td> */}
               {/* <img src="Hiro.png" className="dogs" alt="My Shiba Inu, Hiro" /> */}
-            </td>
+            {/* </td>
           </tr>
           </tbody>
         </table>
-      </div>
+      </div> */}
     </main>
   </div>
   );

@@ -222,6 +222,17 @@ strong {
   flex-direction: column;
 }
 
+#edLogos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edLogo {
+  width: 30%;
+  height: 100%;
+}
+
 .section1 a, .section2 a, .section3 a {
   color: #c9d7f2;
 }
