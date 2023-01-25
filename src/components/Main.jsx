@@ -1,10 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import { 
   Navbar, 
   AboutMe, 
   Footer, 
   HomePage, 
-  Portfolio
+  Portfolio,
+  Navmenu
 } from './';
 import { 
   BrowserRouter as Router,
@@ -13,16 +14,18 @@ import {
 } from "react-router-dom";
 
 const Main = () => {
+  const [navmenuneeded, setnavmenuneeded] = useState(false)
   return (
     <Router>
       <div id="main">
-        <Navbar />
+        <Navbar setnavmenuneeded={setnavmenuneeded}/>
           <>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/aboutme" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
           </Routes>
+          {navmenuneeded ? (<Navmenu setnavmenuneeded={setnavmenuneeded}/>):null}
           </>
         <Footer />
       </div>

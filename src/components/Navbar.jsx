@@ -1,7 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const setnavmenuneeded = props.setnavmenuneeded
 
   async function removeActiveClass () {
     let nav1 = document.getElementsByClassName("navlink")[0]
@@ -31,6 +32,10 @@ const Navbar = () => {
     projectsTab.classList.add("active")
   }
 
+  async function openNavMenu () {
+    setnavmenuneeded(true)
+  }
+
   return (
     <div className="header">
         <h1 className="headerh1">Lex Mullin</h1>
@@ -39,6 +44,9 @@ const Navbar = () => {
           <NavLink to ="/aboutme" alt="About Me" id="aboutNav" className="navlink" onClick={changeActivetoAbout}>About Me</NavLink>
           <NavLink to ="/portfolio" alt="Projects" id="projectsNav" className="navlink" onClick={changeActivetoProjects}>Projects</NavLink>
       </nav>
+      <button id="hamburgernav" onClick={openNavMenu}><span  className="material-symbols-outlined" >
+menu
+</span></button>
   </div>
   );
 };

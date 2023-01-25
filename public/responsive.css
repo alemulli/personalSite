@@ -1,0 +1,73 @@
+/* Mobile Nav Menu Screen CSS */
+@media (max-width:800px) {
+
+    #hamburgernav {
+        display:block;
+        border: none;
+        padding: 0px;
+    }
+
+    .navbar {
+        display: none;
+    }
+  }
+
+#navmenu {
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0b192f;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    animation: slidein 1s;
+}
+
+#navmenu .navmenuneeded {
+    animation-name: slideout;
+    animation-duration: .5s;
+}
+
+@keyframes slidein {
+    from {
+        margin-left:100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+@keyframes slideout {
+    from {
+        margin-left:0%;
+    }
+    to {
+        margin-left: 100%;
+    }
+}
+
+.navmenuoptions {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.navmenuoptions a {
+    background-color: #259484;
+    color: #0b192f;
+    text-decoration: none;
+    padding: 1.1em;
+    font-size: 1.5em;
+}
+
+.material-symbols-outlined {
+    background-color: #5EC8B9;
+    color: #0b192f;
+    text-decoration: bold;
+    padding: 1.1em;
+    font-size: 1.5em;
+}

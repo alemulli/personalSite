@@ -70,6 +70,10 @@ html, body, #app, #main {
   font-size: 1.5em;
 }
 
+#hamburgernav {
+  display: none;
+}
+
 .active {
   background-color: #0b192f;
   color: #c9d7f2;
