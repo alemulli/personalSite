@@ -7,20 +7,18 @@ const Navmenu = (props) => {
     const setIsOpen = props.setIsOpen
 
     async function closeNavMenu () {
-        // setIsOpen("true")
-        // setTimeout(()=>{setnavmenuneeded(false); setIsOpen("false")}, 1000) 
-        setnavmenuneeded(false)
-        // setIsOpen("false")
-        setTimeout(()=>{setIsOpen("false")},1000)
+        setTimeout(()=>{setnavmenuneeded(false)}, 1000) 
+        setIsOpen("false")
     }
 
   return (
-    <div id="navmenu" className={isOpen} >
+    <div id="navmenu"  >
+      <div className={isOpen}>
         <nav className="navmenuoptions">
           <NavLink to ="/" alt="Home Page" onClick={closeNavMenu}>Home</NavLink>
           <NavLink to ="/aboutme" alt="About Me" onClick={closeNavMenu}>About Me</NavLink>
           <NavLink to ="/portfolio" alt="Projects" onClick={closeNavMenu}>Projects</NavLink>
-      </nav>
+      </nav></div>
   </div>
   );
 };

@@ -15,7 +15,7 @@ import {
 
 const Main = () => {
   const [navmenuneeded, setnavmenuneeded] = useState(false)
-  const [isOpen, setIsOpen] = useState("false")
+  const [isOpen, setIsOpen] = useState()
 
   return (
     <Router>
@@ -28,9 +28,6 @@ const Main = () => {
             <Route path="/portfolio" element={<Portfolio />} />
           </Routes>
           {navmenuneeded && <Navmenu isOpen={isOpen} setIsOpen={setIsOpen} navmenuneeded={navmenuneeded} setnavmenuneeded={setnavmenuneeded}/>}
-          {/* {navmenuneeded ? (
-          <Navmenu isOpen={isOpen} setIsOpen={setIsOpen} navmenuneeded={navmenuneeded} setnavmenuneeded={setnavmenuneeded}/>
-          ):null} */}
           </>
         <Footer />
       </div>

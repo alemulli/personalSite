@@ -12,11 +12,9 @@
     }
   }
 
-  
-
-#navmenu {
+.false {
     z-index: 1;
-    height: 100vh;
+    height:100vh;
     width: 100vw;
     background-color: #0b192f;
     position: fixed;
@@ -26,14 +24,25 @@
     align-items: center;
     justify-content: center;
     padding: 5%;
-    animation: slidein 1s;
-}
-
-#navmenu .true {
+    margin-left: 100%;
     animation: slideout 1s;
 }
 
-
+.true {
+    z-index: 1;
+    height:100vh;
+    width: 100vw;
+    background-color: #0b192f;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    margin-left: 0%;
+    animation: slidein 1s;  
+}
 
 @keyframes slidein {
     from {
