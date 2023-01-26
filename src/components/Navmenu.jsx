@@ -15,6 +15,9 @@ const Navmenu = (props) => {
     <div id="navmenu"  >
       <div className={isOpen}>
         <nav className="navmenuoptions">
+        <button id="closeNavMenu" onClick={closeNavMenu}><span  className="material-symbols-outlined" >
+close
+</span></button>
           <NavLink to ="/" alt="Home Page" onClick={closeNavMenu}>Home</NavLink>
           <NavLink to ="/aboutme" alt="About Me" onClick={closeNavMenu}>About Me</NavLink>
           <NavLink to ="/portfolio" alt="Projects" onClick={closeNavMenu}>Projects</NavLink>
