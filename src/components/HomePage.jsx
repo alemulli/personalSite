@@ -60,7 +60,7 @@ const HomePage = () => {
         <li>Github</li>
         <li>Python</li>
       </ul> */}
-      <br /><br />
+     
       <img id="myGitHub" src="https://ghchart.rshah.org/5ec8b9/alemulli" alt="2016rshah's Blue Github Chart" /> 
         {/* can change the color by putting a new hex code in place of 409ba5 */}
       {/* <img src="me.png" alt="Picture of Lex Mullin" className="me" /> */}
