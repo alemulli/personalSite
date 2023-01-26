@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = (props) => {
   const setnavmenuneeded = props.setnavmenuneeded
+  const setIsOpen = props.setIsOpen
 
   async function removeActiveClass () {
     let nav1 = document.getElementsByClassName("navlink")[0]
@@ -32,8 +33,9 @@ const Navbar = (props) => {
     projectsTab.classList.add("active")
   }
 
-  async function openNavMenu () {
+  function openNavMenu () {
     setnavmenuneeded(true)
+    setIsOpen("true")
   }
 
   return (
