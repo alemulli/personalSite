@@ -22,6 +22,10 @@
         max-width: 100vw;
     }
 
+    #aboutMe {
+        padding: 0px;
+    }
+
     main {
         width: 100vw;
         max-width: 100vw;
