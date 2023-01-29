@@ -83,9 +83,9 @@ const Portfolio = () => {
             height="315"
             src="https://www.youtube-nocookie.com/embed/e4BqKTNMyTw"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <p>
             Fitness Trackr is a MyFitnessPal-esque workout routine sharing
@@ -147,9 +147,9 @@ const Portfolio = () => {
             height="315"
             src="https://www.youtube-nocookie.com/embed/gXsrblHERec"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <p>
             JuiceBox is a public message board web app, developed while

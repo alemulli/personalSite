@@ -205,7 +205,7 @@ strong {
 .section2 {
   /* background-color: #5ec8b9; */
   background-color: #259484;
-  border: 0.5em double white;
+  border: 0.5em double #c9d7f2;
   padding: 1em;
   margin: 0;
   color: #0b192f;
