@@ -6,7 +6,7 @@ const AboutMe = () => {
         <main>
       <br />
       <h1 className="mainh1">About me.</h1>
-      <div className="section2">
+      <div className="section1">
         <h3>Education and Experience</h3>
         <ul>
           <li>Web Development Certificate from Virginia Tech powered by Full Stack Academy</li>
@@ -21,7 +21,7 @@ const AboutMe = () => {
         <span id="edLogos"><img className="edLogo" src="https://www.assets.cms.vt.edu/images/Standard/Standard_RGB.svg" alt="Virginia Tech Logo" /><img className="edLogo" src="https://www.radford.edu/etc/designs/radford/core/images/branding-stacked.png" alt="Radford University Logo"/><img className="edLogo" src="https://res.cloudinary.com/dyqjp130l/image/upload/v1674246581/Tech/fsa-removebg-preview_um3aem.png" alt="Fullstack Academy Logo" /></span>
         <p>Throughout my Virginia Tech coding bootcamp powered by Fullstack Academy I learned frontend development using HTML, CSS, JavaScript, and React, as well as back end development using Node.js, Express.js, and postgreSQL, all while using Github for version control. Since graduating the program I've been working independently to expand my skills and knowledge.</p>
       </div>
-      <div className="section2">
+      <div className="section3">
         <h3>Currently Working On</h3>
         <b>
           My main project right now is:

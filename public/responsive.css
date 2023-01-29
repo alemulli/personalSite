@@ -22,8 +22,17 @@
         max-width: 100vw;
     }
 
-    #aboutMe {
+    #aboutMe, #projects {
         padding: 0px;
+    }
+
+    #projects iframe {
+        width: 95%;
+        height: 100%;
+    }
+
+    .meme {
+        width: 90%;
     }
 
     main {
