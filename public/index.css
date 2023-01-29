@@ -264,6 +264,11 @@ iframe {
   border-radius: 3em;
 }
 
+.meme {
+  width: 70%;
+  align-self: center;
+}
+
 .dogs {
   max-height: 30vh;
 }

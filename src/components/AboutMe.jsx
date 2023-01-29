@@ -19,23 +19,19 @@ const AboutMe = () => {
           </li>
         </ul>
         <span id="edLogos"><img className="edLogo" src="https://www.assets.cms.vt.edu/images/Standard/Standard_RGB.svg" alt="Virginia Tech Logo" /><img className="edLogo" src="https://www.radford.edu/etc/designs/radford/core/images/branding-stacked.png" alt="Radford University Logo"/><img className="edLogo" src="https://res.cloudinary.com/dyqjp130l/image/upload/v1674246581/Tech/fsa-removebg-preview_um3aem.png" alt="Fullstack Academy Logo" /></span>
-        <p>Throughout my Virginia Tech coding bootcamp powered by Fullstack Academy I learned frontend development using HTML, CSS, JavaScript, and React, as well as back end development using Node.js, Express.js, and postgreSQL, all while using Github for version control. Since graduating the program I've been working independently to expand my skills and knowledge. I'm working on learning python, AWS, TypeScript, and MongoDB.</p>
+        <p>Throughout my Virginia Tech coding bootcamp powered by Fullstack Academy I learned frontend development using HTML, CSS, JavaScript, and React, as well as back end development using Node.js, Express.js, and postgreSQL, all while using Github for version control. Since graduating the program I've been working independently to expand my skills and knowledge.</p>
       </div>
-      {/* <div className="section2">
-        <h3>Earth and Space Science Nerd</h3>
-        <p>
-          Intelligent beings dream of the mind's eye a still more glorious dawn
-          awaits venture white dwarf concept of the number one. A mote of dust
-          suspended in a sunbeam vanquish the impossible star stuff harvesting
-          star light hearts of the stars rich in heavy atoms extraordinary
-          claims require extraordinary evidence? Circumnavigated at the edge of
-          forever emerged into consciousness star stuff harvesting star light
-          finite but unbounded paroxysm of global death and billions upon
-          billions upon billions upon billions upon billions upon billions upon
-          billions.
-        </p>
-        <span className="sciencegallery"> */}
-          {/* <img
+      <div className="section2">
+        <h3>Currently Working On</h3>
+        <b>
+          My main project right now is:
+        </b>
+        <p>Making this website responsive to different devices and window sizes.</p>
+        <img className="meme" src="https://res.cloudinary.com/dyqjp130l/image/upload/v1675013234/Tech/Responsiveness_qunwrb.png" alt="Web Responsiveness Meme of a three headed hydra. The left two hydra heads are normal and laveled with Desktop and Tablet. The rightmost hydra head is goofy and labeled with Phone"/>
+        <br />
+        <b>I'm also working on:</b><p>Learning Typscript, brainstorming a new react app project, AWS Certification Training</p>
+        {/*<span className="sciencegallery">
+           <img
             src="about1.JPG"
             className="sciencepic"
             alt="Picture in front of a Volcano in Iceland" />
@@ -47,10 +43,14 @@ const AboutMe = () => {
             src="about4.JPG"
             className="sciencepic"
             alt="Picture with a sea urchin"
-        /> */}
-        {/* </span>
+        /> 
+         </span>*/}
       </div>
-      <div className="section3">
+      {/* <div className="section2">
+        <h3>Web Design Elements that are Important to Me</h3>
+        <p>Accessibility, user experience, ... details details details</p>
+      </div> */}
+      {/*{<div className="section3">
         <h3>My Puppies</h3>
         <table>
           <tbody>
