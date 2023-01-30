@@ -7,7 +7,7 @@ const Navmenu = (props) => {
     const setIsOpen = props.setIsOpen
 
     async function closeNavMenu () {
-        setTimeout(()=>{setnavmenuneeded(false)}, 1000) 
+        setTimeout(()=>{setnavmenuneeded(false)}, 450) 
         setIsOpen("false")
     }
 
