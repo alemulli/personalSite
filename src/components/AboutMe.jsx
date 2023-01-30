@@ -48,7 +48,7 @@ const AboutMe = () => {
       </div>
       {/* <div className="section2">
         <h3>Web Design Elements that are Important to Me</h3>
-        <p>Accessibility, user experience, ... details details details</p>
+        <p>When it comes to what I would like to aim for in my web development, accessibility is very important to me. My vision is not very great, but it can be corrected with glasses. While my vision is correctable, I am very empathetic with people who have vision challenges and I like to keep them in mind. When I was an SME for the Earth Science Virtual Virginia course, my main responsibility was assessing the accuracy of the content. I noticed that a graphic that they had chosen to use was very difficult, even for me with corrected vision, to make out. I felt it necessary to point out that this is making content for the students inaccessible, doubly so if they have vision disabilities. While I do not face any other challenges personally when it comes to accessibility of content on the web, I do like to maintain awareness of these things for the users.</p>
       </div> */}
       {/*{<div className="section3">
         <h3>My Puppies</h3>
