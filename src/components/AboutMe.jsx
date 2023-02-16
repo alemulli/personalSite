@@ -29,7 +29,7 @@ const AboutMe = () => {
         <p>Making this website responsive to different devices and window sizes.</p>
         <img className="meme" src="https://res.cloudinary.com/dyqjp130l/image/upload/v1675013234/Tech/Responsiveness_qunwrb.png" alt="Web Responsiveness Meme of a three headed hydra. The left two hydra heads are normal and laveled with Desktop and Tablet. The rightmost hydra head is goofy and labeled with Phone"/>
         <br />
-        <b>I'm also working on:</b><p>Learning Typscript, brainstorming a new react app project, AWS Certification Training</p>
+        <b>I'm also working on:</b><p>Learning Typscript, learning TailwindCSS, brainstorming a new react app project, AWS Certification Training, and playing around with Unity (C#) for fun.</p>
         {/*<span className="sciencegallery">
            <img
             src="about1.JPG"
