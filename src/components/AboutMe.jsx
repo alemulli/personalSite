@@ -26,7 +26,11 @@ const AboutMe = () => {
         <b>
           My main project right now is:
         </b>
-        <p>Learning Typscript and learning TailwindCSS. I've started a list of 40 coding projects, the first of which is a calculator app that I'm using to practice new skills.</p>
+        <p>Learning Typscript and learning TailwindCSS. </p?
+          <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--jkd8gwOG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w1fmcim4yj8gs79ym4id.jpg" alt="List of 40 coding projects." />
+          <p>I've started a list of 40 coding projects, the first of which is a calculator app that I'm using to practice new skills.</p>
+          <img src="https://external-preview.redd.it/pP94m2OaJ2OLuEQliXEgLR1-XI3YXQjoCjxGbLjnUdA.jpg?auto=webp&s=9cbe05dbb89d962157a01e00b39bd3b7f5765374" alt="Meme of a bird who doesn't want to try a TypeScript cracker, but then tries it and realizes he loves it." />
+          <br />
         <b>I'm also working on:</b><p>Brainstorming a new react app project, AWS Certification Training, and playing around with Unity (C#) for fun.</p>
         {/*<span className="sciencegallery">
            <img
