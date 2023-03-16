@@ -288,6 +288,19 @@ iframe {
   object-fit: cover;
 }
 
+.recimg {
+  border-radius: 100%;
+  height: 50px;
+  width: auto;
+}
+
+.quoted {
+  align-self: flex-end;
+  display:flex;
+  align-items: center;
+  gap: 5px;
+}
+
 /* Typed out effect */
 .typed {
   overflow: hidden; 

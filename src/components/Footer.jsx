@@ -38,6 +38,7 @@ const Footer = () => {
         </p>
         <span className="copied">Copied to Clipboard</span>
       </div>
+      <div className="contact"><strong>Last updated:</strong><p id="email">March 16, 2023</p></div>
     </div>
   );
 };
