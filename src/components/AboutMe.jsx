@@ -34,14 +34,17 @@ const AboutMe = () => {
       </div>
       <div className="section3">
         <h3>Currently Working On</h3>
-        <b>
-          My main project right now is:
-        </b>
-        <p>Learning Typscript and learning TailwindCSS. </p>
-          <img className="meme" src="https://external-preview.redd.it/pP94m2OaJ2OLuEQliXEgLR1-XI3YXQjoCjxGbLjnUdA.jpg?auto=webp&s=9cbe05dbb89d962157a01e00b39bd3b7f5765374" alt="Meme of a bird who doesn't want to try a TypeScript cracker, but then tries it and realizes he loves it." />
-          <p>I've started a list of 40 coding projects, the first of which is a calculator app that I'm using to practice new skills.</p>
-          <img className="meme" src="https://res.cloudinary.com/practicaldev/image/fetch/s--jkd8gwOG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w1fmcim4yj8gs79ym4id.jpg" alt="List of 40 coding projects." /><br />
-        <b>I'm also working on:</b><p>Brainstorming a new react app project, AWS Certification Training, and playing around with Unity (C#) for fun.</p>
+        <ul>
+          <li><p>Learning Typscript and experimenting with different CSS frameworks TailwindCSS and SASS. </p>
+          <img className="meme" src="https://external-preview.redd.it/pP94m2OaJ2OLuEQliXEgLR1-XI3YXQjoCjxGbLjnUdA.jpg?auto=webp&s=9cbe05dbb89d962157a01e00b39bd3b7f5765374" alt="Meme of a bird who doesn't want to try a TypeScript cracker, but then tries it and realizes he loves it." /></li>
+        
+          <li><p>I've started a list of 40 coding projects, the first of which was a <a href="https://sprightly-blancmange-78ed58.netlify.app/">calculator app</a> that I'm using to practice new skills. The quiz app is next, and I believe I will try to develop it as a discord bot to quiz my fellow junior devs on programming in the discord channel I moderate.</p>
+          <img className="meme" src="https://res.cloudinary.com/practicaldev/image/fetch/s--jkd8gwOG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w1fmcim4yj8gs79ym4id.jpg" alt="List of 40 coding projects." /></li>
+        <li>Have just started a new react app project with a front-end and back-end. More details to come as I develop it further.</li>
+        <li>Studying for AWS Certification</li> 
+        <li>Taking Harvards CS50 Introduction to Computer Science Course to gain some familiarity with C and Python</li>
+          <li>Playing around with Unity (C#) for fun.</li>
+        </ul>
       </div>
       {/* <div className="section2">
         <h3>Web Design Elements that are Important to Me</h3>
