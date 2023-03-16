@@ -21,7 +21,7 @@ const AboutMe = () => {
     circles[currentQuote].classList.add('progressChange')
   }
 
-  setInterval(changeQuote, 6000)
+  setInterval(changeQuote, 10000)
 
   return (
     <div id="aboutMe">
