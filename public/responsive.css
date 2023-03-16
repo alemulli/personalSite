@@ -45,6 +45,15 @@
         width: 300px;
     }
 
+    #quotes {
+        min-height: 700px;
+        max-height: 700px;
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        justify-items: center;
+      }
+
     /* Typed out effect */
 .typed {
     overflow: hidden; 

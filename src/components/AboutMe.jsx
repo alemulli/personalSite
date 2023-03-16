@@ -1,6 +1,28 @@
 import React from "react";
 
 const AboutMe = () => {
+
+  const quotes = document.getElementsByClassName('quote')
+  const circles = document.getElementsByClassName('circle')
+  let currentQuote = 0
+
+  function changeQuote() {
+    if (currentQuote < 3) {
+      currentQuote ++
+    } else {
+      currentQuote = 0
+    }
+    console.log(currentQuote)
+    for (let i = 0; i<quotes.length; i++) {
+      quotes[i].classList.remove('isVisible')
+      circles[i].classList.remove('progressChange')
+    }
+    quotes[currentQuote].classList.add('isVisible')
+    circles[currentQuote].classList.add('progressChange')
+  }
+
+  setInterval(changeQuote, 6000)
+
   return (
     <div id="aboutMe">
         <main>
@@ -23,14 +45,26 @@ const AboutMe = () => {
       </div>
       <div className="section2">
         <h3>People I've worked with have said...</h3>
+        <div id="quotes">
+        <div className="quote isVisible">
           <p>"I had the pleasure of working with Lex on our final project for Fullstack Academy. Lex provided the organization, leadership, and knowledge in order for us all to be successful in our final run. Her teaching background definitely came into play when we had team members stuck on code that wasn't working. She was patient and took the time to help me understand important JavaScript and React concepts fully. Not only did she help hone my skills in coding, the whole team that we worked with was enlightened by her mastery. You could certainly tell the radiance that Lex brings to a team. I wish Lex the best of luck in the Web Development world, and thank her for her outstanding cooperation. Any employer would be so lucky to have Lex on their team!"</p>
           <div className="quoted"><img className="recimg" src="https://media.licdn.com/dms/image/D5603AQFQmatvk1K9Bw/profile-displayphoto-shrink_100_100/0/1669658416563?e=1684368000&v=beta&t=EGL892EU1xCWV_F68sK7q0HJLFt2ztLexOMoHauonb4" /><a href="https://www.linkedin.com/in/alexander-winston/">Alex Winston</a></div>
+          </div>
+          <div className="quote">
           <p>"Worked with Lex for our final project and I could not have asked for a better teammate! Lex's knowledge with react, JS and css etc. definitely helped our team succeed and accomplish all of our goals. Her leadership skills are amazing and helped the entire team keep on track, on top of that her critical thinking and problem solving skills showed us how important it is to think outside the box and always look for different ways to solve problems. Lex's qualities will really be a good addition to any team she works with and any company she works for."</p>
           <div className="quoted"><img className="recimg" src="https://media.licdn.com/dms/image/D5603AQFCK_L0iWMkSw/profile-displayphoto-shrink_100_100/0/1676227689090?e=1684368000&v=beta&t=yHeRINkhApWAoRN0BJb_uPbQjOrXaEYJ7qhuAeLtTjg" /><a href="https://www.linkedin.com/in/leonardo-cruz-761623255/">Leo Cruz</a></div>
+          </div>
+          <div className="quote">
           <p>"Not only was Lex a go-getter, she was extremely knowledgeable in all aspects of full stack development and all-in-all, a fantastic partner to have to the group . She helped break down functions for everyone to understand and it didn't seem to be an issue for her. It was almost like we had an additional instructor for the course and I can't thank her enough for that. Her patience, knowledge and way to utilize her resources to debug an issue are what makes her stand out. I know that whatever she chooses to pursue in this field, she will be an absolute rock star. Great job, Lex!"</p>
           <div className="quoted"><img className="recimg" src="https://media.licdn.com/dms/image/D5603AQGnkvIIp9kxTQ/profile-displayphoto-shrink_100_100/0/1677880090316?e=1684368000&v=beta&t=cNDMjSxeG27jj6pROG8gipE6vsRQ-7MD727QjgpNI1A" /><a href="https://www.linkedin.com/in/dillan-may-62242556/">Dillon May</a></div>
+          </div>
+          <div className="quote">
           <p>"Lex is awesome! I worked with her on our website about selling cars. She is very knowledgeable and helped the group debug issues on our website. She knows how to create a plan and lead the group to finishing a certain task. Definitely will be a huge asset to any company or team she is on."</p>
           <div className="quoted"><img className="recimg" src="https://media.licdn.com/dms/image/D4E03AQFWLro5c-tJzQ/profile-displayphoto-shrink_100_100/0/1670265372023?e=1684368000&v=beta&t=fScT4aLpKrjBqH2J7vvxD194s_hT47hq4vkD6TKBx9Q" /><a href="https://www.linkedin.com/in/irfanpekusic/">Irfan Pekusic</a></div>
+          </div>
+          <br/>
+          <div id="progress"><div class="circle progressChange"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div></div>
+          </div>
       </div>
       <div className="section3">
         <h3>Currently Working On</h3>
