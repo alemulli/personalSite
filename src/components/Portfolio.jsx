@@ -5,6 +5,7 @@ const Portfolio = () => {
     <div id="projects">
       <main>
         <br />
+        {/* Need to add Solar System Quackathon Project. */}
         <h1 className="mainh1">My projects.</h1>
         <div className="section1">
           <h3>GraceShopper — Hot Cars</h3>

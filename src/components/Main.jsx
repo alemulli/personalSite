@@ -5,7 +5,8 @@ import {
   Footer, 
   HomePage, 
   Portfolio,
-  Navmenu
+  Navmenu,
+  Archive
 } from './';
 import { 
   BrowserRouter as Router,
@@ -26,6 +27,7 @@ const Main = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/aboutme" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/archive" element={<Archive />} />
           </Routes>
           {navmenuneeded && <Navmenu isOpen={isOpen} setIsOpen={setIsOpen} navmenuneeded={navmenuneeded} setnavmenuneeded={setnavmenuneeded}/>}
           </>
